@@ -1,0 +1,27 @@
+/* Center the clock on the screen */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #070007;
+    font-family: Arial, sans-serif;
+    color: #fd0000;
+  }
+  
+  .clock {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  #time {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  #date {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #ff6803;
+  }
